@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<ul class="ulist">
+    <li class="lists">list 1</li>
+    <li class="lists">list 2</li>
+    <li class="lists"> list 3</li>
+</ul>
+  <p>click on the button to see result</p>
+<button onclick="myFunction()">Get Result</button>
+
+    <script>
+
+        
+               var get_ul = document.querySelector(".ulist");
+                var creat_list = document.createElement("li");
+               creat_list.innerText = "list 4";
+               creat_list.classList.add("list_4");
+
+               get_ul.appendChild(creat_list);
+            
+
+            
+
+function myFunction()
+{
+    var x = document.getElementsByClassName("list_4");
+    
+    for(var i = 0; i < x.length; i++){
+    x[i].innerText="sanskar singh!";  
+    }
+
+}
+            
+    </script>
+</body>
+</html>

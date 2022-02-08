@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manupulates with Dom</title>
+</head>
+<body>
+    <div id="main" class="container">
+        <ul>
+            <li>home</li>
+            <li>contact</li>
+            <li>more about</li>
+            <li>feedback</li>
+           
+        </ul>
+    </div>
+    <div class="container">
+        another container
+    </div>
+    <script>
+        let main=document.getElementById('main');
+        console.log(main);
+        let container=document.getElementsByClassName('conatainer');
+        console.log(container);
+        let sel=document.querySelector('.container');
+        console.log(sel);
+    </script>
+</body>
+</html>

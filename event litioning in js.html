@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event handling in javascript</title>
+    <style>
+#btn{
+    background-color: red;
+    padding: 10px 14px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>this is my </h1>
+    <p id="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur aliquam cum deserunt in non quo voluptas, quae consectetur esse quia!</p>
+</div>
+<button id="btn" onclick="hide()">show/hide</button>
+<script>
+    para.addeventListener('mouseover',function run(){
+        alert('mouse now u outside')
+    });
+
+function hide(){
+    let btn=document.getElementById('btn');
+    let para=document.getElementById('para');
+    if(para.style.display!='none'){
+    para.style.display='none';
+}
+else{
+    para.style.display='block';
+}
+}
+</script>
+</body>
+</html>

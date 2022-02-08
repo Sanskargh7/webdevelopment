@@ -1,0 +1,25 @@
+form{
+    width: 500px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+input{
+    width: 94%;
+    margin: 5px 0px;
+    padding: 5px;
+}
+
+.gac{
+    width: 45%;
+}
+
+button{
+    background-color: chocolate;
+    width: 95%;
+    padding: 6px;
+    border: none;
+    color: white;
+    border-radius:3px;
+    margin: 4px;
+}

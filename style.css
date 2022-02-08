@@ -1,0 +1,29 @@
+.container{
+/* background-color: red; */
+width: 900px;
+height: 700px;
+display: grid;
+grid-template-columns: 25% 25% 25%;
+grid-template-rows: 25% 25% 25%;
+row-gap: 1%;
+column-gap: 10%;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+
+}
+.item{
+    color: white;
+     width: 150px;
+     height: 80px;  
+    background-color: black;
+}
+.item1{
+    color: white;
+   grid-column-start:1 ; 
+   grid-column-end: 4;
+}
+.foorter{
+    grid-column-start:1 ; 
+    grid-column-end: 4;
+
+}

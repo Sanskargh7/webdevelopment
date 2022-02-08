@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>querySelctor</title>
+    <style>
+        .item{
+            height: 60px;
+            padding: 10px;
+        }
+        #item2{
+            background-color:green ;
+        }
+       
+    </style>
+</head>
+<body>
+    <div id="item1"class="item">item1</div>
+    <div id="item2"class="item_two">item2</div>
+    <div id="item3"class="item">item3</div>
+    <script>
+        var item_2=document.querySelectorAll(".item_two");
+        item_2.style.backgroundColor="red";
+        console.log(item_2)
+    </script>
+</body>
+</html>
